@@ -16,7 +16,7 @@ namespace G_NET_42_EF_2.Models
 
         public Address Address { get; set; }
 
-        public ICollection<Registration> Registrations { get; set; }
-            = new List<Registration>();
+        public ICollection<Registeration> Registrations { get; set; }
+            = new List<Registeration>();
     }
 }

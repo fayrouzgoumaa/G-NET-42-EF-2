@@ -34,8 +34,8 @@ namespace G_NET_42_EF_2.Models
             = new List<Event>();
 
         // Many-to-Many
-        public ICollection<Registration> Registrations { get; set; }
-            = new List<Registration>();
+        public ICollection<Registeration> Registrations { get; set; }
+            = new List<Registeration>();
 
         // Audit Fields
         public DateTime CreatedAt { get; set; }

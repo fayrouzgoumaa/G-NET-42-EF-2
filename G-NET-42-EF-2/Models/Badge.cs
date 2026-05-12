@@ -17,6 +17,7 @@ namespace G_NET_42_EF_2.Models
         // FK
         public int RegistrationId { get; set; }
 
+
         public Registeration Registration { get; set; }
     }
 }

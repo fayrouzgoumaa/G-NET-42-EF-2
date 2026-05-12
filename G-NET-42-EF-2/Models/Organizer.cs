@@ -10,6 +10,7 @@ namespace G_NET_42_EF_2.Models
     {
         public int Id { get; set; }
 
+
         public string Name { get; set; }
 
         public string? CompanyName { get; set; }
